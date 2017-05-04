@@ -61,6 +61,7 @@ public class ClassGit extends AbstractClientDataModel implements IModel<ClassGit
     public static final String MODEL_NAME = "ClassGit";
 
     /** class specific attributes */
+    private String fsdfsd = null;
     /**
      * Protected constructor; to create a new instance, use the createObject() method
      */
@@ -83,6 +84,16 @@ public class ClassGit extends AbstractClientDataModel implements IModel<ClassGit
     public String getModelName( )
     {
         return MODEL_NAME;
+    }
+
+    public String getFsdfsd()
+    {
+         return this.fsdfsd;
+    }
+
+    public void setFsdfsd( String arg )
+    {
+        this.fsdfsd = arg;
     }
 
 }
